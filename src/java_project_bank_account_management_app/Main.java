@@ -8,9 +8,13 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		int choice = 0;
-		while(true) {
+		
 			System.out.println("\t\tWelcome to Bank Account Management System");
 			System.out.println("\t\t=========================================");
+		while(true) {
+			System.out.println("+++++++++");
+			System.out.println("Main Menu");
+			System.out.println("+++++++++");
 			System.out.println("Press 1 for Creating an Bank Account.");
 			System.out.println("Press 2 for Displaying All Bank Accounts.");
 			System.out.println("Press 3 for Updating an Bank Account.");
@@ -30,6 +34,10 @@ public class Main {
 					CreateAccount ca = new CreateAccount();
 					ca.inputAccountInfo();
 					goBackToMenu();
+					break;
+				case 7:
+					SearchAccount sa = new SearchAccount();
+					sa.inputAccountNo();
 					break;
 				case 0:
 					System.out.println("The Application is Closed.");

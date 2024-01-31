@@ -49,7 +49,6 @@ public class SearchAccount {
 	private static void displayAccountDetails(BufferedReader br) throws IOException {
         System.out.println("Account Details:");
         System.out.println("----------------");
-        System.out.println("Account Number: ");
         String line;
         while ((line = br.readLine()) != null && !line.isEmpty()) {
             System.out.println(line);

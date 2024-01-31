@@ -34,6 +34,11 @@ public class Main {
 					CreateAccount ca = new CreateAccount();
 					ca.inputAccountInfo();
 					goBackToMenu();
+					break;	
+				case 4:
+					DeleteAccount da = new DeleteAccount();
+					da.inputAccountNo();
+					goBackToMenu();
 					break;
 				case 7:
 					SearchAccount sa = new SearchAccount();

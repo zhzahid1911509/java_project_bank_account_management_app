@@ -3,3 +3,5 @@
 /CreateAccount.class
 /SearchAccount.class
 /DeleteAccount.class
+/DisplayAllAcounts.class
+/DisplayAllAccounts.class
